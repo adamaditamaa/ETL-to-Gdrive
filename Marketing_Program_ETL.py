@@ -68,7 +68,7 @@ try:
 except:
     log("ETL data gagal")
     
-# Co
+# Load to Gdrive
 try:
     titles = "{0}.xlsx".format(today)
     gfile = drive.CreateFile({'parents': [{'id': ids}]})
