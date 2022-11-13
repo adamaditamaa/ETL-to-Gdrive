@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep  5 14:12:16 2022
 
-@author: Team_Data
-"""
 # Import Library
 import pandas as pd
 import mysql.connector as cnn
